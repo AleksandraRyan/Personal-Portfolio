@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --heading-ff: 'Playfair Display', serif;
+  --heading-p: 'Poppins', sans-serif;
+}
+
+body {
+  /* background: rgb(5, 172, 223); */
+}
+
+a {
+  text-decoration: none;
+}
+
+nav h1 {
+  font-family: var(--heading-ff);
+  color: #000;
+  margin-left: 15px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-family: var(--heading-p);
+  font-size: 16px;
+  transition: all 100ms ease-in-out;
+}
+
+nav ul li a:hover {
+  color: rgb(5, 172, 223);
+  border-bottom: 2px solid rgb(5, 172, 223);
+}
