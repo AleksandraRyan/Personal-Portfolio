@@ -9,6 +9,8 @@
   --heading-p: 'Poppins', sans-serif;
 }
 
+/* Home Page */
+
 /* Navigation */
 
 a {
@@ -108,7 +110,7 @@ footer .social i {
   padding: 12px;
   background-color: rgb(5, 172, 223);
   color: #000;
-  transition: all 400ms ease-in-out;
+  transition: all 350ms ease-in-out;
 }
 
 footer .social i:hover {
@@ -117,4 +119,46 @@ footer .social i:hover {
 
 footer h6 {
   margin-top: 30px;
+}
+
+/* About Page */
+.about-me h1 {
+  font-family: var(--heading-ff);
+  font-size: 60px;
+}
+
+.about-me h3 {
+  font-family: var(--heading-ff);
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.about-me p {
+  font-family: var(--heading-p);
+}
+
+.about-me .about-me-button {
+  background-color: rgb(5, 172, 223);
+  color: #fff;
+  padding: 10px 35px;
+  border: none;
+  font-family: var(--heading-p);
+  transition: all 500ms ease-in-out;
+}
+
+.about-me .about-me-button:hover {
+  background-color: transparent;
+  color: #000;
+  border: 2px solid #000;
+}
+
+.personal-img img {
+  border-radius: 30px;
+  margin-top: 50px;
+}
+
+.about-me {
+  margin-top: 100px;
+  padding: 20px;
 }
