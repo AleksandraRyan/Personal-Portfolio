@@ -9,9 +9,7 @@
   --heading-p: 'Poppins', sans-serif;
 }
 
-body {
-  /* background: rgb(5, 172, 223); */
-}
+/* Navigation */
 
 a {
   text-decoration: none;
@@ -39,4 +37,80 @@ nav ul li a {
 nav ul li a:hover {
   color: rgb(5, 172, 223);
   border-bottom: 2px solid rgb(5, 172, 223);
+}
+
+/* Hero */
+.hero {
+  background-color: rgb(5, 172, 223);
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 70px;
+  font-family: var(--heading-ff);
+}
+
+.hero h3 {
+  font-size: 2rem;
+}
+
+.hero p {
+  font-size: 20px;
+  font-family: var(--heading-p);
+}
+
+.contact-button {
+  padding: 10px 35px;
+  font-family: var(--heading-p);
+  border-radius: 0;
+  transition: all 600ms ease-in-out;
+}
+
+/* Content */
+.content-container h2 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+
+.content-button {
+  padding: 10px 35px;
+  margin-top: 10px;
+  font-family: var(--heading-p);
+  transition: all 600ms ease-in-out;
+}
+
+/* Footer */
+footer p a {
+  font-family: var(--heading-p);
+  font-size: 20px;
+  color: #000;
+}
+
+footer p a:hover {
+  border-bottom: 2px solid #000;
+  color: #000;
+}
+
+footer .social {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+footer .social i {
+  margin-right: 20px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  padding: 12px;
+  background-color: rgb(5, 172, 223);
+  color: #000;
+  transition: all 400ms ease-in-out;
+}
+
+footer .social i:hover {
+  color: #fff;
+}
+
+footer h6 {
+  margin-top: 30px;
 }
