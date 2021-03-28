@@ -39,6 +39,10 @@ nav ul li a:hover {
   border-bottom: 2px solid rgb(5, 172, 223);
 }
 
+nav li.active a {
+  color: rgb(5, 172, 223);
+}
+
 /* Hero */
 .hero {
   background-color: rgb(5, 172, 223);
