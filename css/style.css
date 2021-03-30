@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,500&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -161,4 +163,37 @@ footer h6 {
 .about-me {
   margin-top: 100px;
   padding: 20px;
+}
+
+/* Projects Page */
+
+.project-header {
+  font-family: var(--heading-ff);
+  margin: 39px 0;
+  text-align: center;
+  font-size: 45px;
+}
+
+/* Contact Me */
+.contact-me {
+  margin-top: 80px;
+  /* margin-left: 20px; */
+}
+
+.contact-me h1 {
+  font-family: var(--heading-ff);
+  font-size: 60px;
+  margin-bottom: 3rem;
+}
+
+.contact-me h3 {
+  font-family: var(--heading-p);
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.contact-me a {
+  font-size: 15px;
+  text-decoration: underline;
+  font-weight: 500;
 }
