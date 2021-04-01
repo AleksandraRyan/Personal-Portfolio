@@ -197,3 +197,22 @@ footer h6 {
   text-decoration: underline;
   font-weight: 500;
 }
+
+@media (max-width: 768px) {
+  .contact-me {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1048px) {
+  .personal-img img {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 764px) {
+  .personal-img img {
+    display: block;
+    margin-top: 20px;
+  }
+}
