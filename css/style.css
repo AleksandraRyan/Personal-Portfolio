@@ -237,4 +237,28 @@ footer h6 {
     display: block;
     margin-top: 20px;
   }
+
+  nav h1 {
+    font-size: 20px;
+  }
+
+  .logo {
+    padding: 0 20px;
+    color: #000;
+    margin-top: -10px;
+  }
+
+  nav ul {
+    padding-left: 0;
+  }
+
+  .hero h1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 450px) {
+  nav ul li {
+    margin-right: 8px;
+  }
 }
