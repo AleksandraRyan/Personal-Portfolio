@@ -22,7 +22,7 @@ a {
 nav h1 {
   font-family: var(--heading-ff);
   color: #000;
-  margin-left: 15px;
+  margin-left: 20px;
 }
 
 nav ul li {
@@ -260,5 +260,15 @@ footer h6 {
 @media (max-width: 450px) {
   nav ul li {
     margin-right: 8px;
+  }
+
+  h2.logo {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 991px) {
+  h2.logo {
+    margin-left: 20px;
   }
 }
